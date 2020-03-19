@@ -5,16 +5,16 @@ class Today extends Component {
         super();
         this.state = { today: new Date()};
     }
-  
-    render() { 
-        return ( 
+
+    render() {
+        return (
             <div>
                 <p>  {this.state.today.toLocaleDateString()}</p>
                 <p> {this.state.today.toLocaleTimeString()}</p>
             </div>
-            
+
          );
     }
 }
- 
-export default Today ;
+
+export default Today;

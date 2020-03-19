@@ -2,11 +2,11 @@ import React from 'react';
 
 
 
-const Villages = () => {
+const Teams = () => {
 
     return (
         <div className='container' id="teams">
-            <h1>The Villages</h1>
+            <h1>The Teams</h1>
             <h3>ARIZONA CARDINALS</h3>
             <h3>ATLANTA FALCONS</h3>
             <h3>BALTIMORE RAVENS</h3>
@@ -45,4 +45,4 @@ const Villages = () => {
 
 }
 
-export default Villages;
+export default Teams;

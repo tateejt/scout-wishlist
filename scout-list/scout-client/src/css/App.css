@@ -11,9 +11,9 @@
 
 .container {
     font-weight: 400;
-    margin: 90px auto;
+    margin: 100px auto;
     text-align: center;
-    width: 80%;
+    width: 50%;
     color: white;
 }
 
@@ -58,20 +58,24 @@ button.addbox {
 #teams {
     text-align: left;
     font-weight: bold;
-    color: rgb(44, 18, 1);
-    background-color: rgb(255, 253, 239);
+    color: black;
+    background-color: white;
     opacity: 0.7;
     border-radius: 10px;
     margin: 40px 50 0 50;
 }
 .shownote {
-    background-color: rgb(232, 245, 218);
+    background-color: white;
     opacity: 0.8;
     width: 50%;
     margin: 30px auto;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
+}
+
+.shownote button {
+  color: white;
 }
 .shownote h3 {
     font-style: oblique;
@@ -80,7 +84,7 @@ button.addbox {
 .noteform {
     margin:20px auto;
     font-weight: bold;
-    color: rgb(73, 30, 2);
+    color: white;
 }
 
 textarea {
