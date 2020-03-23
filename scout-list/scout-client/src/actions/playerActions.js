@@ -3,7 +3,7 @@ import {FETCH_PLAYERS, NEW_PLAYER, REMOVE_PLAYER} from './types';
 
 const apiUrl = 'http://localhost:3001/api/players'
 
-export const fetchPlayers = ()=> dispatch =>{
+export const fetchPlayers = () => dispatch => {
         fetch(apiUrl)
             .then(resp => resp.json())
             .then(playerData => dispatch({
