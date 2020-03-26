@@ -18,7 +18,7 @@ class Players extends Component {
             (<div key={player.id} className="container">
                 <div className="row">
                     <div className = "col md-4 mt-4">
-                          <img src={player.imgUrl} alt={player.name} />
+                          <img src={  player.imgUrl} alt={player.name} />
 
                     </div>
                     <div className= "col md-6 mt-4">

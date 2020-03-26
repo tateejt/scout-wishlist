@@ -4,6 +4,7 @@ const initialState = {
     athletes: [],
     athlete: {}
 }
+
 export default function (state = initialState, action) {
     switch (action.type) {
        case FETCH_PLAYERS:
